@@ -1,0 +1,337 @@
+			.main{
+				margin-top: 70px;
+			}
+
+			h1.title { 
+				font-size: 50px;
+				font-family: 'Passion One', cursive; 
+				font-weight: 400; 
+			}
+
+			hr{
+				width: 10%;
+				color: #fff;
+			}
+
+			.form-group{
+				margin-bottom: 15px;
+			}
+
+			label{
+				margin-bottom: 15px;
+			}
+
+			input,
+			input::-webkit-input-placeholder {
+				font-size: 11px;
+				padding-top: 3px;
+			}
+
+			.main-login{
+				background-color: #fff;
+				/* shadows and rounded borders */
+				-moz-border-radius: 2px;
+				-webkit-border-radius: 2px;
+				border-radius: 2px;
+				-moz-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+				-webkit-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+				box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+
+			}
+
+			.main-center{
+				margin-top: 30px;
+				margin: 0 auto;
+				max-width: 330px;
+				padding: 40px 40px;
+
+			}
+
+			.login-button{
+				margin-top: 5px;
+			}
+
+			.login-register{
+				font-size: 11px;
+				text-align: center;
+			}
+			.navbar-brand {
+				padding: 0px;
+			}
+			.navbar-brand>img {
+			  height: 100%;
+			  padding: 0px;
+			  width:auto;
+			}
+			.nav-tabs{
+				border:0;
+			}
+			.nav .open>a, .nav .open>a:focus, .nav .open>a:hover,.followers .open>a{
+				    background-color: transparent;
+					border:0;
+					border-bottom:1px solid #00b377;
+			}
+			.nav>li>a:focus, .nav>li>a:hover,.followers>li>a:hover{
+				background-color:transparent;
+			}
+			.nav>li>a:focus, .nav>li>a:hover,.followers>li>a:hover{
+				border:0;
+				border-bottom:1px solid #00b377;
+			}
+			a{
+				color:#777;
+			}
+			a:focus, a:hover {
+				color: #00b377;
+				text-decoration: underline;
+			}
+			.dropdown:hover{
+				background-color:transparent;
+			}
+			.nav-tabs > li.active > a {
+				transition:1s ease-in-out;
+				border:0;
+				border-bottom:2px solid #00b377;
+			}
+			.nav-tabs > li.active > a:hover{
+				transition:1s ease-in-out;
+				border:0;
+				border-bottom:2px solid #990099;
+				cursor:pointer;
+			}
+			.icon-bar{
+				background-color:#00b377;
+			}
+			.navbar-toggle{
+				border:1px solid #990099;
+			}
+			.navbar {
+				border:0;
+			}
+			#logErr{
+				text-align:center;
+				margin-top:-10%;
+				transition:0.5s ease-in-out;
+			}
+			@media (min-width: 768px) {
+				#logErr{
+					margin-top:-5%;
+				}
+			}
+			@media (min-width: 992px) {
+				.navbar{
+					border-top:1px solid #00b377;
+					border-bottom:1px solid #990099;
+					border-right:1px solid #990099;
+					border-left:1px solid #00b377;
+				}
+				#logErr{
+					margin-top:-5%;
+				}
+			}
+			@media (min-width: 1200px) {
+				#logErr{
+					margin-top:-4%;
+				}
+			}
+			input,.form-control{
+				outline:none;
+				box-shadow:none !important;
+			}
+			.perfil{
+				border-radius:100px;
+				width:40px !important;
+				height:40px;
+				overflow:hidden;
+				margin-top:5px;
+			}
+			hr.account {
+				height: 2px;
+				border-top:1px solid #00b377;
+				margin-top: 20px;
+				margin-bottom: 20px;
+				width:100%;
+				float:left;
+			}
+			.principal{
+				text-align:center;
+			}
+			.perfil_config{
+				border-radius:100px;
+				width:80px !important;
+				height:80px;
+				overflow:hidden;
+			}
+			.alterar_foto,.alterar_foto_profile{
+				cursor:pointer;
+			}
+			span.alterar_foto{
+				display:none;
+				position:absolute;
+				line-height:65px;
+				border-radius:100px;
+				padding:10px;
+				width:80px;
+				height:80px;
+				background-color:rgba(62, 52, 54, 0.7);
+			}
+			a:hover span.alterar_foto, a:hover span.alterar_foto_profile{
+				display:block;
+			}
+			#loading_img{
+				width:150px;
+				height:100px;
+			}
+			#loading{
+				width:100px;
+				height:80px;
+				overflow:hidden;
+				border-radius:100px;
+				margin-left:80px;
+				margin-top:-90px;
+			}
+			.profile{
+				margin-left:100px;
+				margin-top:100px;
+				border-bottom:1px solid #00b377;
+			}
+			.profile_config{
+				border-radius:100px;
+				width:150px !important;
+				height:150px;
+				overflow:hidden;
+			}
+			span.alterar_foto_profile{
+				text-align:center;
+				display:none;
+				position:absolute;
+				line-height:140px;
+				border-radius:100px;
+				padding:10px;
+				width:150px;
+				height:150px;
+				background-color:rgba(62, 52, 54, 0.7);
+			}
+			.followers {
+			  padding-left: 0;
+			  margin-bottom: 0;
+			  list-style: none;
+			}
+			.followers > li {
+			  position: relative;
+			  display: block;
+			}
+			.followers > li > a {
+			  position: relative;
+			  display: block;
+			  padding: 7px 12px;
+			}
+			@media (max-width: 360px) { 
+				.followers > li > a {
+					position: relative;
+					display: block;
+					padding: 3px 8px;
+				}
+			}
+			.followers > li > a:hover,
+			.followers > li > a:focus {
+			  text-decoration: none;
+			}
+			.advertencia{
+				color:#777;
+				margin-top:200px;
+				margin-bottom:-10px;
+			}
+			.miniatura{
+				width:10px !important;
+				height:10px !important;
+				overflow:hidden;
+			}
+			.miniatura>img{
+				width:100%;
+				padding:0px;
+				height:auto;
+			}
+			.data_texto{
+				width:80px;
+				float:right;
+			}
+			.apagar_enquete{
+				float:right;
+				margin-top:-10px;
+				color:#d9534f;
+				background-color:transparent;
+				border:0;
+			}
+			.apagar_enquete:hover, .apagar_enquete:active:focus, .apagar_enquete:active, .apagar_enquete:focus{
+				color:#d9534f;
+				background-color:transparent;
+				border:0;
+			}
+			.opcao{
+				border:1px solid #00b377;
+				text-align:center;
+			}
+			.opcao > img{
+				border-radius:10px;
+			}
+			.votado{
+				border:2px solid #990099;
+				text-align:center;
+			}
+			.votado > img{
+				border-radius:10px;
+			}
+			hr.principalHR {
+				transition:0.5s ease-in-out;
+				height: 2px;
+				border-top:1px solid #990099;
+				margin-top: 21px;
+				margin-bottom: 20px;
+				width:100%;
+				float:right;
+			}
+			hr.usuariosHR {
+				transition:0.5s ease-in-out;
+				height: 2px;
+				border-top:1px solid #990099;
+				margin-top: 21px;
+				margin-bottom: 20px;
+				width:100%;
+				float:left;
+			}
+			a#Principal:focus, a#Principal:hover ,a#Usuarios:focus, a#Usuarios:hover {
+				color: #990099;
+				text-decoration: none;
+			}
+			hr.criarHR {
+					border-top:1px solid #990099;
+					width:100%;
+			}
+			.BotaoCriarEnquete{
+				margin-top:	30px;
+			}
+			#TornarAdmin:hover{
+				color:#00b377;
+			}
+			#RemoverAdmin:hover{
+				color:#990099;
+			}
+			#DeletarUsuario:hover{
+				color:#d9534f;
+			}
+			.footer{
+				width:100%;
+				height:30px;
+				background-color:rgb(62, 52, 54);
+				color:white;
+				bottom: 0;
+				position: absolute;
+				line-height:30px;
+				text-align:center;
+			}
+			@media (max-width: 768px) { 
+				.footer{
+					display:none;
+				}
+			}
